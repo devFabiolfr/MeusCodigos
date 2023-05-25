@@ -10,6 +10,7 @@ nota = float(input(&#39;Digite a {}ª nota: &#39;.format(a + 1)))
 somaNotas += nota
 mediaInd = somaNotas / 4
 medias.append(mediaInd)
+
 print(&#39;Alunos com média maior ou igual a 7:\n&#39;)
 for b in range(len(medias)):
 if medias[b] &gt;= 7:
